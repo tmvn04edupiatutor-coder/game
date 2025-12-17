@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Đập Heo Nhận Quà</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🐷 ĐẬP HEO NHẬN QUÀ 🐷</h1>
+
+  <div class="game">
+    <div class="pig" onclick="hitPig(0)">🐷</div>
+    <div class="pig" onclick="hitPig(1)">🐷</div>
+    <div class="pig" onclick="hitPig(2)">🐷</div>
+    <div class="pig" onclick="hitPig(3)">🐷</div>
+    <div class="pig" onclick="hitPig(4)">🐷</div>
+    <div class="pig" onclick="hitPig(5)">🐷</div>
+  </div>
+
+  <div id="popup" class="popup hidden">
+    <p id="question"></p>
+    <input type="text" id="answer" placeholder="Nhập câu trả lời">
+    <button onclick="submitAnswer()">Trả lời</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
